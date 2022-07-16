@@ -1,0 +1,19 @@
+.botonClear{
+    height: 100%;
+    flex-grow: 1;
+    background-color: greenyellow;
+   
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    transition: .6s ease all;
+    font-size: 1.3em;
+
+}
+.botonClear:active{
+    transform: scale(.9,.9);
+}

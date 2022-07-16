@@ -1,0 +1,25 @@
+.boton_cal{
+    height: 100%;
+    flex-grow: 1;
+    background-color: rgb(119, 119, 231);
+    margin: 0px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+    transition: .6s ease all;
+    font-size: 1.3em;
+
+}
+.boton_cal:active{
+    transform: scale(.9,.9);
+}
+.boton_cal:hover{
+    background-color: blueviolet;
+}
+.operador{
+    background-color: pink;
+}
