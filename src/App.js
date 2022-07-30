@@ -1,46 +1,16 @@
 
 import './App.css';
-import Boton from './conponentes/Boton/Boton';
-import BotonClear from './conponentes/BotonClear/BotonClear';
-import Pantalla from './conponentes/Pantalla/Pantalla';
+import PrimaryButton from './components/common/Buttons/Primary/PrimaryButton';
+import SecondaryButton from './components/common/Buttons/Secondary/SecondaryButton';
+import Subtitle from './components/common/Subtitle/Subtitle';
+import Title from './components/common/Title/Title';
 function App() {
   return (
     <div className="App">
-      <div className='container_calculadora'>
-      <div className='container_pantalla'>
-        <Pantalla></Pantalla>
-      </div>
-      <div className='container_botones_cal'>
-        <div className='fila'>
-        <Boton>7</Boton>
-        <Boton>8</Boton>
-        <Boton>9</Boton>
-        <Boton>+</Boton>
-        </div>
-        <div className='fila'>
-        <Boton>4</Boton>
-        <Boton>5</Boton>
-        <Boton>6</Boton>
-        <Boton>-</Boton>
-        </div>
-        <div className='fila'>
-        <Boton>1</Boton>
-        <Boton>2</Boton>
-        <Boton>3</Boton>
-        <Boton>x</Boton>
-        </div>
-        <div className='fila'>
-        <Boton>.</Boton>
-        <Boton>0</Boton>
-        <Boton>=</Boton>
-        <Boton>/</Boton>
-        </div>
-       </div>
-      <div className='container_botonClear'>
-      <BotonClear>C</BotonClear>
-      </div>
-      </div>
-      
+      <Title />
+      <Subtitle variant="center" />
+      <PrimaryButton />
+      <SecondaryButton />
     </div>
   );
 }
