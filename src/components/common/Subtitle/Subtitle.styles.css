@@ -2,11 +2,14 @@
     font-size: 24px;
     font-weight: 400;
     color: #ADB9C7;
+    position: absolute;
+    left: 0px;
+    top:400px;
 
 }
 
 .center {
-    text-align: center;
+    text-align: left;
 }
 
 .left {

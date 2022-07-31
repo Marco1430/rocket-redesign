@@ -1,4 +1,7 @@
 .title {
+    position: absolute;
+    left:10px;
+    top:150px;
     font-size: 40px;
     font-weight: 700;
     color:#ffffff;

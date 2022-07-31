@@ -31,3 +31,10 @@
   flex-grow: 1;
   background-color: rgb(219, 108, 108);
 }
+.App{
+  min-height: 100vh;
+  background-image: url("./assets/images/Background.png");
+  background-size: cover;
+  background-position:center center;
+  
+}

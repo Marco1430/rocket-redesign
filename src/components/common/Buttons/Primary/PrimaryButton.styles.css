@@ -1,4 +1,7 @@
 .primaryButton {
+    position: absolute;
+    left:50px;
+    top:300px;
     width: 275px;
     height: 64px;
     background: #1E50FF;
@@ -6,4 +9,7 @@
     font-weight: 600;
     font-size: 20px;
     color: #ffffff
+    
+    
+
 }
